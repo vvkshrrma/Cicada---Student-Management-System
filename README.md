@@ -1,2 +1,4 @@
 # Cicada---Student-Management-System
 Cicada - Student Management System streamlines student data management by integrating Python with MySQL. It offers secure admin login, enabling efficient storage, access, and management of student records.
+
+Before running the project, ensure that all prerequisites are met. Install **MySQL Server** from the official website and set up the **MySQL Python Connector** to enable the connection between Python and MySQL. Additionally, install the Python MySQL library using the command: `pip install mysql-connector-python`. Once installations are complete, configure the script by updating the `host`, `user`, and `passwd` values to match your MySQL server credentials. For instance: `mydb = mysql.connector.connect(host="your_host", user="your_username", passwd="your_password")`. These steps ensure a seamless connection between Python and MySQL for the project.
